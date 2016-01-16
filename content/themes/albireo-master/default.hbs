@@ -37,6 +37,10 @@
         </div>
     </footer>
 
+    {{#if @blog.navigation}}
+        {{navigation}}
+    {{/if}}
+
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
 
