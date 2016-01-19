@@ -108,14 +108,14 @@ h6 {
 }
 
 a {
-    color: #2C3237;
+    color: #729AD0;
     text-decoration: none;
     transition: color ease 0.3s;
     outline: 0;
 }
 
 a:hover {
-    color: #828487;
+    color: #559BFB;
 }
 
 h1 a, h2 a, h3 a,
@@ -362,7 +362,9 @@ table.plain {
     font-size: 4rem;
     font-weight: 300;
     letter-spacing: -1px;
+    color: #2C3239;
 }
+.blog-title:hover { color: #51565A; }
 
 .blog-description {
     margin: 20px 0 0 0;

@@ -11,8 +11,8 @@
     <footer>
         <ul class="post-meta">
             {{#if author.image}}<li><i class="icon-user"></i> {{ author }}</li>{{/if}}
-            <li><i class="icon-time"></i> <time datetime="{{date format='YYYY-MM-DD'}}">{{date}}</time></li>
-            {{#if tags}}<li><i class="icon-tags"></i> {{tags}}</li>{{/if}}
+            <li><i class="icon-time"></i> <time datetime="{{date format='YYYY-MM--DD'}}">{{date format="DD MMM YYYY"}}</time> </li>
+            {{#if tags}}<li><i class="icon-tags"></i> <li>on {{tags}}{{/if}}<a href="{{url}}#disqus_thread">Comments</a></li>
         </ul>
     </footer>
 </article>
