@@ -70,7 +70,7 @@ if (process.env.OPENSHIFT_MYSQL_DB_HOST != undefined) {
         // ### Development **(default)**
         development: {
             // The url to use when providing links to the site, E.g. in RSS and email.
-            url: 'http://hostilejourney.com',
+            url: 'http://www.hostilejourney.com',
 
             // Example mail config
             // Visit http://support.ghost.org/mail for instructions
