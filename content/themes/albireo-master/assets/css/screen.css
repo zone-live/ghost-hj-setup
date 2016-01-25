@@ -385,6 +385,21 @@ table.plain {
     border: none;
 }
 
+.background-image-post {
+    display: inline-block;
+    width: 100%;
+    padding: 8% 0;
+/*    background: url('https://images.unsplash.com/uploads/1413498852637ad9a7e80/1569fece?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e41fd9b37a8eaedf790ac0c4c092f6bb');
+    background-size: cover;*/
+}
+
+.background-image-post .background-image-post_file {
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
 .back-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
