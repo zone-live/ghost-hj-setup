@@ -418,7 +418,7 @@ table.plain {
     width:80%;
     max-width: 680px;
     margin: 0 auto;
-    padding: 4rem 0;
+    padding: 6rem 0;
     border-bottom: 1px solid #F2F2F0;
     word-break: break-word;
     hyphens: auto;
@@ -829,13 +829,15 @@ table.plain {
     blockquote {
         margin-left: 0;
     }
-
+    .page #site-head {
+        width: 100%;
+    }
     #site-head {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
         height: auto;
-        min-height: 240px;
+        /*min-height: 240px;*/
         padding: 15% 0;
     }
 
@@ -909,7 +911,7 @@ table.plain {
     }
 
     #site-head {
-        margin: 2rem auto;
+        margin: 60px auto 0;
     }
 
     .blog-title {
