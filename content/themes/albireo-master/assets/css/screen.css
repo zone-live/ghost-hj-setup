@@ -383,7 +383,6 @@ table.plain {
     right: 0;
     height: 70px;
     border: none;
-    z-index: 10;
 }
 
 .back-button {

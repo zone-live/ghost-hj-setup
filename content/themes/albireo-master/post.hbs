@@ -5,25 +5,25 @@
 
 
 {{! Each post has the blog logo at the top, with a link back to the home page }}
+<div class="background-image-post">
+    <nav class="main-nav burger-nav">
+        {{> "menu-activator-icon"}}
+    </nav>
 
-<nav class="main-nav burger-nav">
-    {{> "menu-activator-icon"}}
-</nav>
+    <header id="site-head">
+        <div id="site-head-content" class="inner">
+            {{#if @blog.logo}}
+                <a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
+            {{else}}
+                <a href="{{@blog.url}}" class="blog-title">{{@blog.title}}</a>
+            {{/if}}
+        </div>
+    </header>
 
-<header id="site-head">
-    <div id="site-head-content" class="inner">
-        {{#if @blog.logo}}
-            <a id="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>
-        {{else}}
-            <a href="{{@blog.url}}" class="blog-title">{{@blog.title}}</a>
-        {{/if}}
-    </div>
-</header>
-
-<nav class="main-nav overlay clearfix">
-    <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
-</nav>
-
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="{{@blog.url}}">Home</a>
+    </nav>
+</div>
 <main class="content" role="main">
 
     <article class="{{post_class}}">
